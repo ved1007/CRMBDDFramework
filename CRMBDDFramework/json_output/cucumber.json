@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Let\u0027s\u0027 Kode it Login Scenario",
+        "description": "",
+        "id": "let\u0027s\u0027-kode-it-login-feature;let\u0027s\u0027-kode-it-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15139906094,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is alread on the login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_alread_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29813669,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "title of login page is Let\u0027s\u0027 Kode It",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1237599926,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters \"ved1007@gmail.com\" and \"Welcome01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ved1007@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Welcome01",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user clicks on the login button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user will close the web site",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Let\u0027s\u0027 Kode it Login Feature",
+    "description": "",
+    "id": "let\u0027s\u0027-kode-it-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/PC User1/Desktop/SeleniumFiles/CRMBDDFramework/src/main/java/Features/login.feature"
+  }
+]

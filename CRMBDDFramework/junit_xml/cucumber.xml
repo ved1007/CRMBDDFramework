@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.40732">
+<testcase classname="Let's' Kode it Login Feature" name="Let's' Kode it Login Scenario" time="16.40732">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is alread on the login page......................................passed
+When title of login page is Let's' Kode It..................................passed
+Then user enters "ved1007@gmail.com" and "Welcome01"........................passed
+Then user clicks on the login button........................................undefined
+Then user will close the web site...........................................undefined
+]]></failure>
+</testcase>
+</testsuite>
